@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic-Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body class="portfolio-page">
+<div class="container-fluid">
+        <div class="row" id="top_container">
+            <div class="col-lg-12 col-md-12 px-0 py-0">
+                <img src="./assets/images/banner_narrower.jpg" class="img-fluid" alt="Banner Image">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 mt-sm-5 mx-auto">
+                <nav class="navbar py-1 px-3 navbar-dark bg-dark rounded">
+                    <a class="navbar-brand mt-0 pl-0.2 pr-0.2 pt-2 pb-2" href="./" title="Go to homepage.">Thais Cailet</a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="ml-auto">
+                            <ul class="navbar-nav mt-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./" title="Go to homepage.">About</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="./portfolio.html" title="Check out my portfolio.">Portfolio <span class="sr-only">(current page)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contact.html" title="Contact me.">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+        <div id="content_container" class="row mt-4">
+            <div class="col-lg-8 col-md-8 mx-auto">
+                <main class="col-lg-8 col-md-7 float-lg-left float-md-left">
+                    <article class="px-sm-0">
+                        <h2>Portfolio</h2>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 col-md-12 col-sm-5 float-lg-left float-sm-left float-md-left mr-sm-1 ml-sm-0">
+                                    <figure >
+                                        <img src="./assets/images/hangman.jpg" width="250" alt="Hangman project" class="mr-sm-0"/>
+                                        <figcaption>
+                                            Hangman
+                                        </figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/images/rpg.jpg" width="250" alt="RPG project" class="mr-sm-0"/>
+                                        <figcaption>
+                                            RPG
+                                        </figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/images/meandcozmo_bw.jpg" width="250" alt="Trivia project" class="mr-sm-0"/>
+                                        <figcaption>
+                                            Trivia Game
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-6 float-lg-right float-sm-right float-md-right ml-sm-1 mr-sm-0">
+                                    <figure>
+                                        <img src="./assets/images/meandcozmo_bw.jpg" width="250" alt="Rutgers project" class="mr-sm-0"/>
+                                        <figcaption>
+                                            Rutgers Info Widget
+                                        </figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/images/meandcozmo_bw.jpg" width="250" alt="RPS project" class="mr-sm-0"/>
+                                        <figcaption>
+                                            Rock Paper Scissors
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </main>
+                <aside class="col-md-5 col-lg-4 ml-lg-2 float-lg-right float-md-right float-sm-left  ml-md-0 py-sm-1">
+                    <!--TODO: add sidebar heading, but hide from rendered view-->
+                    <section id="socialmedia">
+                        <h3>Connect with Me</h3>
+                        <ul class="mt-4">
+                            <li>
+                                <a href="https://github.com/thaiscmky" target="_blank">
+                                    <img src="./assets/images/if_github_square_black_107109.png" width="50" alt="Github Profile"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/thaisdecoded" target="_blank">
+                                    <img src="./assets/images/if_linkedin_square_color_107091.png" width="50" alt="LinkedIn Profile"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://stackoverflow.com/users/9226366/thaiscmky?tab=profile" target="_blank">
+                                    <img src="./assets/images/if_stackoverflow_273179.png" width="50" alt="Stack Overflow Profile"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </aside>
+            </div>
+        </div>
+    </div>
+    <div id="bottom_container">
+        <footer class="one-column">&COPY; Copyright 2018 Thais Cailet</footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
